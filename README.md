@@ -1,7 +1,7 @@
-Healthcare Claims Denial Intelligence: Revenue Leakage & Risk Analysis
+# Healthcare Claims Denial Intelligence: Revenue Leakage & Risk Analysis
 
 
-Executive Summary
+# Executive Summary
 
 Claim denial rates remain elevated across the health system, prompting revenue cycle leadership to seek root causes and actionable solutions. Using SQL, Python, and a structured analytical framework, I extracted the claims dataset, conducted multi-dimensional denial segmentation, and quantified the total revenue impact. The analysis revealed that nearly 1 in 5 claims is denied uniformly across all payers, resulting in a $286.8M gap between billed and approved amounts. I recommend the Revenue Cycle team take three immediate actions:
 
@@ -11,7 +11,7 @@ Claim denial rates remain elevated across the health system, prompting revenue c
 
 ---
 
-Business Problem
+# Business Problem
 
 Denied claims are the primary source of revenue leakage in healthcare. Leadership noted persistently high denial rates but lacked insight into which payer segments, procedure codes, or time periods contributed most to them. Without this breakdown, targeted solutions were not possible.
 
@@ -21,7 +21,7 @@ Stakeholders: CFO · Revenue Cycle Director · Billing Operations · Payer Contr
 
 ---
 
-Methodology
+# Methodology
 
 1. SQL: Designed schema, SQL query that extracts, cleans, and transforms the data from the database, reimbursement model, and procedure code.
 2. Python (pandas): Conducted exploratory data analysis, monthly trend decomposition with month-over-month change detection, revenue leakage analysis, and ROI modeling for four intervention scenarios.
@@ -29,7 +29,7 @@ Methodology
 
 ---
 
-Skills
+# Skills
 
 SQL: DDL/DML, BULK INSERT, CASE, aggregate functions, window functions (LAG), INFORMATION_SCHEMA validation, analytical indexes
 Python: pandas, groupby/agg, time-series period analysis, lambda functions, ROI modeling
@@ -38,7 +38,7 @@ Domain: Healthcare Revenue Cycle Management, payer mix, reimbursement models, de
 
 ---
 
-Results & Business Recommendations
+# Results & Business Recommendations
 
 Denial rates remain approximately 20% across all payer segments (Medicare 20.15%, Medicaid 19.86%, Private 19.67%), ruling out payer contract issues as the cause. Consistent rates across payers indicate the problem lies upstream in documentation and coding, not in contracts.
 
@@ -61,7 +61,7 @@ These actions directly address the largest financial exposures and can be implem
 
 ---
 
-Next Steps
+# Next Steps
 
 1. Extract denial reason codes from payer 835 remittance files to build a root cause taxonomy (CO-4, CO-97, PR-96). This will confirm whether the upstream documentation hypothesis is correct and identify the specific coding gaps causing denials.
 2. Conduct provider-level segmentation to identify which providers or departments generate disproportionate denials, enabling targeted education rather than organization-wide interventions.
