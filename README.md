@@ -1,6 +1,9 @@
 Healthcare Claims Denial Intelligence: Revenue Leakage & Risk Analysis
 
-Claim denial rates remain elevated across the health system, prompting revenue cycle leadership to seek root causes and actionable solutions. Using SQL, Python, and a structured analytical framework, I extracted 100,000 claims, conducted multi-dimensional denial segmentation, and quantified the total revenue impact. The analysis revealed that nearly 1 in 5 claims is denied uniformly across all payers, resulting in a $286.8M gap between billed and approved amounts. I recommend the Revenue Cycle team take three immediate actions:
+
+Executive Summary
+
+Claim denial rates remain elevated across the health system, prompting revenue cycle leadership to seek root causes and actionable solutions. Using SQL, Python, and a structured analytical framework, I extracted the claims dataset, conducted multi-dimensional denial segmentation, and quantified the total revenue impact. The analysis revealed that nearly 1 in 5 claims is denied uniformly across all payers, resulting in a $286.8M gap between billed and approved amounts. I recommend the Revenue Cycle team take three immediate actions:
 
 1. Launch a targeted denial appeal program for high-value claims (>$5,000)
 2. Implement front-end eligibility verification and pre-authorization checklists.
