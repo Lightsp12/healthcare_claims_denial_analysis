@@ -69,3 +69,6 @@ These actions directly address the largest financial exposures and can be implem
 1. Extract denial reason codes from payer 835 remittance files to build a root cause taxonomy (CO-4, CO-97, PR-96). This will confirm whether the upstream documentation hypothesis is correct and identify the specific coding gaps causing denials.
 2. Conduct provider-level segmentation to identify which providers or departments generate disproportionate denials, enabling targeted education rather than organization-wide interventions.
 3. Benchmark performance against HFMA standards (industry median approximately 10–12%) and present the performance gap to leadership to support a business case for a comprehensive Revenue Cycle transformation initiative.
+
+   
+<img width="862" height="251" alt="image" src="https://github.com/user-attachments/assets/c3644bc1-589d-41a2-9737-66b05230c5fc" />
